@@ -1,0 +1,152 @@
+body {
+    background-color: #F0ECEE;
+    background-image: url("css/bulldog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Fira Sans";
+}
+
+
+ul {
+    color: rgb(34, 45, 68);
+    list-style-type: none;
+    float: right;
+    margin-right: 50px;
+}  
+
+li {
+    display: inline;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #FF4850;
+}
+
+p {
+    color: #88898B;
+    position: relative;
+    font-weight: 400px;
+    top: 160px;
+    left: 50px;
+    line-height: 1.5;
+    width: 500px;
+    word-wrap: break-word;
+    display: flex;
+    font-size: 18px;
+}
+
+.adopting {
+    color: #FF4850;
+}
+
+.me {
+    color: #FF4850;
+}
+
+a {
+    color: #88898B;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.button {
+    background-color: #FF4850;
+    color: #F0ECEE;
+    padding: 10px 50px;
+    border-radius: 15px;
+    text-decoration: none;
+    position: relative;
+    top: 175px;
+    left: 50px;
+    font-size: 18px;
+    
+}
+
+a.button:hover, a.button2:hover {
+    background-color: #CCC;
+    color: #FF4850;
+}
+
+h1 {
+    font-weight: 600px;
+    position: relative;
+    top: 170px;
+    left: 50px;
+    line-height: 1.5;
+    width: 600px;
+    word-wrap: break-word;
+    display: flex;
+    font-size: 35px;
+}
+
+.button2 {
+    background-color: #FF4850;
+    color: #F0ECEE;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    
+}
+
+h2 {
+    margin-left: 50px;
+    display: flex;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-image: none;
+        display: flex;
+        display:flex;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    ul{
+        float: left;
+        margin-left: -20px;
+    }
+    
+    li {
+        display: list-item;
+        position: relative;
+        top: 50px;
+    }
+    .button {
+        display: inline-block;
+        text-align: center;
+        margin: 0 -20px;
+        padding: 20px;
+        width: 100%;
+    }
+    .button2 {
+        display: inline-block;
+        text-align: center;
+        padding: 20px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    h2{
+        position: absolute;
+        margin-left: 20px;
+        padding: 0;
+    }
+    h1{
+        margin-left: -20px;
+        margin-top: -100px;
+        padding: 0;
+    }
+    p{
+        margin-left: -20px;
+    }
+}
+@-ms-viewport{
+    width: device-768px;
+  }
